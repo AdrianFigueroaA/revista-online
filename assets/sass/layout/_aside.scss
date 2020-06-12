@@ -1,4 +1,4 @@
-.listado-izquierdo{
+.aside__contenido{
 
 
     display: none;
@@ -17,7 +17,7 @@
 }
 
 
-.cabecera-listado {
+.aside__cabecera {
     border-bottom: 1px solid gray;
 }
 
@@ -29,17 +29,10 @@
    
 }
 
-.viajes_boton ,.noticias_boton,.comida_boton{
-
-    margin-right: 1px;
-    background-color:#4682B4;
-    color: white;
-    font-size: 15px;
-
-}
 
 
 
-.noticias-destacadas {
+
+.aside__noticias__destacadas {
     margin-bottom: 50px;
 }
