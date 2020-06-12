@@ -1,3 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 2px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  * {
+    padding: 10px;
+  }
+}
+
+.contenedor {
+  width: 100%;
+}
+
+body {
+  font-family: monospace;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+  color: black;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nosotros {
+  display: none;
+}
+@media (min-width: 768px) {
+  .nosotros {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav {
+    width: 30%;
+  }
+}
+
+.contacto {
+  padding-right: 5px;
+}
+
+.viajes_boton, .noticias_boton, .comida_boton {
+  margin-right: 1px;
+  background-color: #4682B4;
+  color: white;
+  font-size: 15px;
+}
+
+.group input,
+.group button {
+  display: inline-block;
+  border-width: 0;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.group button {
+  background-color: coral;
+  color: white;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+  color: black;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .nosotros {
   display: none;
 }
@@ -274,6 +370,80 @@
   .listado-izquierdo {
     display: block;
   }
+}
+
+.cuerpo p {
+  padding: 5px 10px;
+}
+
+.cabecera-listado {
+  border-bottom: 1px solid gray;
+}
+
+.tags {
+  border-bottom: 1px solid gray;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.viajes_boton, .noticias_boton, .comida_boton {
+  margin-right: 1px;
+  background-color: #4682B4;
+  color: white;
+  font-size: 15px;
+}
+
+.noticias-destacadas {
+  margin-bottom: 50px;
+}
+
+.footer {
+  margin: auto;
+  text-align: center;
+}
+
+.contenido {
+  width: 100%;
+}
+
+.noticia {
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.newsletter {
+  background-color: #f2f4f5;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.input-menu {
+  border-radius: 30px;
+  padding-left: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */

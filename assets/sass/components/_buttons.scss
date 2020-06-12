@@ -1,0 +1,25 @@
+.viajes_boton ,.noticias_boton,.comida_boton{
+
+    margin-right: 1px;
+    background-color:#4682B4;
+    color: white;
+    font-size: 15px;
+
+}
+
+
+
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+
+.group button {
+    background-color: coral;
+    color: white;
+}
